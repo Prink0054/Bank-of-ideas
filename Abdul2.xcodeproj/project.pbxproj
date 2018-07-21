@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3162EC7A60231E2E0ABABDAA /* Pods_Abdul2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99457A9FB1379A04032F590 /* Pods_Abdul2Tests.framework */; };
+		77F045AF2DDB1EA861E64E0A /* Pods_Abdul2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B3B3CB17CC6E85EB7FFA46 /* Pods_Abdul2.framework */; };
+		EC1B59D12058F84A00D383F7 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B59D02058F84A00D383F7 /* Popover.swift */; };
+		EC1B59D32058FAEF00D383F7 /* PopoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B59D22058FAEF00D383F7 /* PopoverTableViewCell.swift */; };
+		EC1B59D52058FB8800D383F7 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B59D42058FB8800D383F7 /* PopViewController.swift */; };
+		EC1B59DA20595BAB00D383F7 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B59D820595BAB00D383F7 /* TableCell.swift */; };
+		EC1B59DB20595BAB00D383F7 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1B59D920595BAB00D383F7 /* TableCell.xib */; };
+		EC2334B120564ED900AA31D4 /* Register_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2334B020564ED900AA31D4 /* Register_ViewController.swift */; };
+		EC2334B320569FB100AA31D4 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2334B220569FB100AA31D4 /* ForgotViewController.swift */; };
+		EC2334B52056AA3E00AA31D4 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2334B42056AA3E00AA31D4 /* ChangePasswordViewController.swift */; };
+		EC299D50205793C700FBE4D9 /* SaveDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC299D4F205793C700FBE4D9 /* SaveDataViewController.swift */; };
+		EC299D522057ADD600FBE4D9 /* SavaDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC299D512057ADD600FBE4D9 /* SavaDataTableViewCell.swift */; };
+		EC299D552057D1C200FBE4D9 /* ViewDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC299D542057D1C200FBE4D9 /* ViewDataViewController.swift */; };
+		EC299D572057E39600FBE4D9 /* DataListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC299D562057E39600FBE4D9 /* DataListingViewController.swift */; };
+		EC299D592057F0AE00FBE4D9 /* DataListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC299D582057F0AE00FBE4D9 /* DataListingTableViewCell.swift */; };
+		EC299D5B2057FE7400FBE4D9 /* ViewDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC299D5A2057FE7400FBE4D9 /* ViewDataTableViewCell.swift */; };
+		ECFFAC5A2052BE930073EB32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFAC592052BE930073EB32 /* AppDelegate.swift */; };
+		ECFFAC622052BE940073EB32 /* Abdul2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECFFAC602052BE940073EB32 /* Abdul2.xcdatamodeld */; };
+		ECFFAC672052BE940073EB32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAC652052BE940073EB32 /* LaunchScreen.storyboard */; };
+		ECFFAC722052BE940073EB32 /* Abdul2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFAC712052BE940073EB32 /* Abdul2Tests.swift */; };
+		ECFFAC912052BF700073EB32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAC902052BF6F0073EB32 /* Main.storyboard */; };
+		ECFFAD042052BFAE0073EB32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD032052BFAE0073EB32 /* Assets.xcassets */; };
+		ECFFAD072052C0B10073EB32 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFAD052052C0B10073EB32 /* BaseViewController.swift */; };
+		ECFFAD082052C0B10073EB32 /* SignIn_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFAD062052C0B10073EB32 /* SignIn_ViewController.swift */; };
+		ECFFAD112052C4F80073EB32 /* UITextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFAD102052C4F80073EB32 /* UITextfield.swift */; };
+		ECFFAD132052C81E0073EB32 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFAD122052C81E0073EB32 /* UIButton.swift */; };
+		ECFFAD2E2052CA6C0073EB32 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD152052CA6B0073EB32 /* Montserrat-Black.otf */; };
+		ECFFAD2F2052CA6C0073EB32 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD162052CA6B0073EB32 /* Montserrat-Bold.otf */; };
+		ECFFAD302052CA6C0073EB32 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD172052CA6C0073EB32 /* Montserrat-Bold.ttf */; };
+		ECFFAD312052CA6C0073EB32 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD182052CA6C0073EB32 /* Montserrat-ExtraBold.otf */; };
+		ECFFAD322052CA6C0073EB32 /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD192052CA6C0073EB32 /* Montserrat-ExtraLight.otf */; };
+		ECFFAD332052CA6C0073EB32 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD1A2052CA6C0073EB32 /* Montserrat-ExtraLight.ttf */; };
+		ECFFAD342052CA6C0073EB32 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD1B2052CA6C0073EB32 /* Montserrat-Light.otf */; };
+		ECFFAD352052CA6C0073EB32 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD1C2052CA6C0073EB32 /* Montserrat-Light.ttf */; };
+		ECFFAD362052CA6C0073EB32 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD1D2052CA6C0073EB32 /* Montserrat-Medium.otf */; };
+		ECFFAD372052CA6C0073EB32 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD1E2052CA6C0073EB32 /* Montserrat-Medium.ttf */; };
+		ECFFAD382052CA6C0073EB32 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD1F2052CA6C0073EB32 /* Montserrat-Regular.otf */; };
+		ECFFAD392052CA6C0073EB32 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD202052CA6C0073EB32 /* Montserrat-Regular.ttf */; };
+		ECFFAD3A2052CA6C0073EB32 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD212052CA6C0073EB32 /* Montserrat-SemiBold.otf */; };
+		ECFFAD3B2052CA6C0073EB32 /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD222052CA6C0073EB32 /* Montserrat-Thin.otf */; };
+		ECFFAD3C2052CA6C0073EB32 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD232052CA6C0073EB32 /* Montserrat-Thin.ttf */; };
+		ECFFAD3D2052CA6C0073EB32 /* MontserratAlternates-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD242052CA6C0073EB32 /* MontserratAlternates-Black.otf */; };
+		ECFFAD3E2052CA6C0073EB32 /* MontserratAlternates-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD252052CA6C0073EB32 /* MontserratAlternates-Bold.otf */; };
+		ECFFAD3F2052CA6C0073EB32 /* MontserratAlternates-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD262052CA6C0073EB32 /* MontserratAlternates-ExtraBold.otf */; };
+		ECFFAD402052CA6C0073EB32 /* MontserratAlternates-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD272052CA6C0073EB32 /* MontserratAlternates-ExtraLight.otf */; };
+		ECFFAD412052CA6C0073EB32 /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD282052CA6C0073EB32 /* MontserratAlternates-Light.otf */; };
+		ECFFAD422052CA6C0073EB32 /* MontserratAlternates-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD292052CA6C0073EB32 /* MontserratAlternates-Medium.otf */; };
+		ECFFAD432052CA6C0073EB32 /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD2A2052CA6C0073EB32 /* MontserratAlternates-Regular.otf */; };
+		ECFFAD442052CA6C0073EB32 /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD2B2052CA6C0073EB32 /* MontserratAlternates-SemiBold.otf */; };
+		ECFFAD452052CA6C0073EB32 /* MontserratAlternates-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD2C2052CA6C0073EB32 /* MontserratAlternates-Thin.otf */; };
+		ECFFAD462052CA6C0073EB32 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = ECFFAD2D2052CA6C0073EB32 /* SIL Open Font License.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECFFAC6E2052BE940073EB32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECFFAC4E2052BE930073EB32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFFAC552052BE930073EB32;
+			remoteInfo = Abdul2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13E6E1CA3F7C9B8E959CB299 /* Pods-Abdul2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abdul2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abdul2/Pods-Abdul2.release.xcconfig"; sourceTree = "<group>"; };
+		B8B3B3CB17CC6E85EB7FFA46 /* Pods_Abdul2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abdul2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99457A9FB1379A04032F590 /* Pods_Abdul2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abdul2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CE1E2E6DA849E4B5CEB53C /* Pods-Abdul2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abdul2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abdul2/Pods-Abdul2.debug.xcconfig"; sourceTree = "<group>"; };
+		E49E67053561F0C19623029C /* Pods-Abdul2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abdul2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abdul2Tests/Pods-Abdul2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E8F8131760117932A13208CB /* Pods-Abdul2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abdul2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abdul2Tests/Pods-Abdul2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC1B59D02058F84A00D383F7 /* Popover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
+		EC1B59D22058FAEF00D383F7 /* PopoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverTableViewCell.swift; sourceTree = "<group>"; };
+		EC1B59D42058FB8800D383F7 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		EC1B59D820595BAB00D383F7 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		EC1B59D920595BAB00D383F7 /* TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		EC2334B020564ED900AA31D4 /* Register_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register_ViewController.swift; sourceTree = "<group>"; };
+		EC2334B220569FB100AA31D4 /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		EC2334B42056AA3E00AA31D4 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		EC299D4F205793C700FBE4D9 /* SaveDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveDataViewController.swift; sourceTree = "<group>"; };
+		EC299D512057ADD600FBE4D9 /* SavaDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavaDataTableViewCell.swift; sourceTree = "<group>"; };
+		EC299D542057D1C200FBE4D9 /* ViewDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDataViewController.swift; sourceTree = "<group>"; };
+		EC299D562057E39600FBE4D9 /* DataListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataListingViewController.swift; sourceTree = "<group>"; };
+		EC299D582057F0AE00FBE4D9 /* DataListingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataListingTableViewCell.swift; sourceTree = "<group>"; };
+		EC299D5A2057FE7400FBE4D9 /* ViewDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDataTableViewCell.swift; sourceTree = "<group>"; };
+		ECFFAC562052BE930073EB32 /* Abdul2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abdul2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFFAC592052BE930073EB32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECFFAC612052BE940073EB32 /* Abdul2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Abdul2.xcdatamodel; sourceTree = "<group>"; };
+		ECFFAC662052BE940073EB32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECFFAC682052BE940073EB32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFFAC6D2052BE940073EB32 /* Abdul2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Abdul2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFFAC712052BE940073EB32 /* Abdul2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abdul2Tests.swift; sourceTree = "<group>"; };
+		ECFFAC732052BE940073EB32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFFAC902052BF6F0073EB32 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		ECFFAD032052BFAE0073EB32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECFFAD052052C0B10073EB32 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		ECFFAD062052C0B10073EB32 /* SignIn_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn_ViewController.swift; sourceTree = "<group>"; };
+		ECFFAD102052C4F80073EB32 /* UITextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextfield.swift; sourceTree = "<group>"; };
+		ECFFAD122052C81E0073EB32 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		ECFFAD152052CA6B0073EB32 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		ECFFAD162052CA6B0073EB32 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		ECFFAD172052CA6C0073EB32 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		ECFFAD182052CA6C0073EB32 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		ECFFAD192052CA6C0073EB32 /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		ECFFAD1A2052CA6C0073EB32 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		ECFFAD1B2052CA6C0073EB32 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		ECFFAD1C2052CA6C0073EB32 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		ECFFAD1D2052CA6C0073EB32 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		ECFFAD1E2052CA6C0073EB32 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		ECFFAD1F2052CA6C0073EB32 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		ECFFAD202052CA6C0073EB32 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		ECFFAD212052CA6C0073EB32 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		ECFFAD222052CA6C0073EB32 /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		ECFFAD232052CA6C0073EB32 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		ECFFAD242052CA6C0073EB32 /* MontserratAlternates-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Black.otf"; sourceTree = "<group>"; };
+		ECFFAD252052CA6C0073EB32 /* MontserratAlternates-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.otf"; sourceTree = "<group>"; };
+		ECFFAD262052CA6C0073EB32 /* MontserratAlternates-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraBold.otf"; sourceTree = "<group>"; };
+		ECFFAD272052CA6C0073EB32 /* MontserratAlternates-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraLight.otf"; sourceTree = "<group>"; };
+		ECFFAD282052CA6C0073EB32 /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
+		ECFFAD292052CA6C0073EB32 /* MontserratAlternates-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Medium.otf"; sourceTree = "<group>"; };
+		ECFFAD2A2052CA6C0073EB32 /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
+		ECFFAD2B2052CA6C0073EB32 /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
+		ECFFAD2C2052CA6C0073EB32 /* MontserratAlternates-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Thin.otf"; sourceTree = "<group>"; };
+		ECFFAD2D2052CA6C0073EB32 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECFFAC532052BE930073EB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F045AF2DDB1EA861E64E0A /* Pods_Abdul2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFFAC6A2052BE940073EB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3162EC7A60231E2E0ABABDAA /* Pods_Abdul2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3E3A92DA488CD66A979110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE1E2E6DA849E4B5CEB53C /* Pods-Abdul2.debug.xcconfig */,
+				13E6E1CA3F7C9B8E959CB299 /* Pods-Abdul2.release.xcconfig */,
+				E8F8131760117932A13208CB /* Pods-Abdul2Tests.debug.xcconfig */,
+				E49E67053561F0C19623029C /* Pods-Abdul2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		681B1ED5D56C713D8F85F5CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B3B3CB17CC6E85EB7FFA46 /* Pods_Abdul2.framework */,
+				C99457A9FB1379A04032F590 /* Pods_Abdul2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC299D532057B31700FBE4D9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC299D512057ADD600FBE4D9 /* SavaDataTableViewCell.swift */,
+				EC299D582057F0AE00FBE4D9 /* DataListingTableViewCell.swift */,
+				EC299D5A2057FE7400FBE4D9 /* ViewDataTableViewCell.swift */,
+				EC1B59D22058FAEF00D383F7 /* PopoverTableViewCell.swift */,
+				EC1B59D820595BAB00D383F7 /* TableCell.swift */,
+				EC1B59D920595BAB00D383F7 /* TableCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		ECFFAC4D2052BE930073EB32 = {
+			isa = PBXGroup;
+			children = (
+				ECFFAC582052BE930073EB32 /* Abdul2 */,
+				ECFFAC702052BE940073EB32 /* Abdul2Tests */,
+				ECFFAD142052CA6B0073EB32 /* Fonts */,
+				4A3E3A92DA488CD66A979110 /* Pods */,
+				681B1ED5D56C713D8F85F5CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECFFAC572052BE930073EB32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECFFAC562052BE930073EB32 /* Abdul2.app */,
+				ECFFAC6D2052BE940073EB32 /* Abdul2Tests.xctest */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		ECFFAC582052BE930073EB32 /* Abdul2 */ = {
+			isa = PBXGroup;
+			children = (
+				ECFFAD0F2052C3A80073EB32 /* Extensions */,
+				ECFFAD0A2052C2B40073EB32 /* StoryBoard */,
+				ECFFAD092052C2720073EB32 /* ViewControllers */,
+				ECFFAC592052BE930073EB32 /* AppDelegate.swift */,
+				ECFFAC682052BE940073EB32 /* Info.plist */,
+				ECFFAC602052BE940073EB32 /* Abdul2.xcdatamodeld */,
+			);
+			path = Abdul2;
+			sourceTree = "<group>";
+		};
+		ECFFAC702052BE940073EB32 /* Abdul2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFFAC712052BE940073EB32 /* Abdul2Tests.swift */,
+				ECFFAC732052BE940073EB32 /* Info.plist */,
+			);
+			path = Abdul2Tests;
+			sourceTree = "<group>";
+		};
+		ECFFAD092052C2720073EB32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC299D532057B31700FBE4D9 /* Cell */,
+				ECFFAD052052C0B10073EB32 /* BaseViewController.swift */,
+				ECFFAD062052C0B10073EB32 /* SignIn_ViewController.swift */,
+				EC2334B020564ED900AA31D4 /* Register_ViewController.swift */,
+				EC2334B220569FB100AA31D4 /* ForgotViewController.swift */,
+				EC2334B42056AA3E00AA31D4 /* ChangePasswordViewController.swift */,
+				EC299D4F205793C700FBE4D9 /* SaveDataViewController.swift */,
+				EC299D542057D1C200FBE4D9 /* ViewDataViewController.swift */,
+				EC299D562057E39600FBE4D9 /* DataListingViewController.swift */,
+				EC1B59D42058FB8800D383F7 /* PopViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ECFFAD0A2052C2B40073EB32 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				ECFFAC902052BF6F0073EB32 /* Main.storyboard */,
+				ECFFAC652052BE940073EB32 /* LaunchScreen.storyboard */,
+				ECFFAD032052BFAE0073EB32 /* Assets.xcassets */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		ECFFAD0F2052C3A80073EB32 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B59D02058F84A00D383F7 /* Popover.swift */,
+				ECFFAD102052C4F80073EB32 /* UITextfield.swift */,
+				ECFFAD122052C81E0073EB32 /* UIButton.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		ECFFAD142052CA6B0073EB32 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ECFFAD152052CA6B0073EB32 /* Montserrat-Black.otf */,
+				ECFFAC572052BE930073EB32 /* Products */,
+				ECFFAD162052CA6B0073EB32 /* Montserrat-Bold.otf */,
+				ECFFAD172052CA6C0073EB32 /* Montserrat-Bold.ttf */,
+				ECFFAD182052CA6C0073EB32 /* Montserrat-ExtraBold.otf */,
+				ECFFAD192052CA6C0073EB32 /* Montserrat-ExtraLight.otf */,
+				ECFFAD1A2052CA6C0073EB32 /* Montserrat-ExtraLight.ttf */,
+				ECFFAD1B2052CA6C0073EB32 /* Montserrat-Light.otf */,
+				ECFFAD1C2052CA6C0073EB32 /* Montserrat-Light.ttf */,
+				ECFFAD1D2052CA6C0073EB32 /* Montserrat-Medium.otf */,
+				ECFFAD1E2052CA6C0073EB32 /* Montserrat-Medium.ttf */,
+				ECFFAD1F2052CA6C0073EB32 /* Montserrat-Regular.otf */,
+				ECFFAD202052CA6C0073EB32 /* Montserrat-Regular.ttf */,
+				ECFFAD212052CA6C0073EB32 /* Montserrat-SemiBold.otf */,
+				ECFFAD222052CA6C0073EB32 /* Montserrat-Thin.otf */,
+				ECFFAD232052CA6C0073EB32 /* Montserrat-Thin.ttf */,
+				ECFFAD242052CA6C0073EB32 /* MontserratAlternates-Black.otf */,
+				ECFFAD252052CA6C0073EB32 /* MontserratAlternates-Bold.otf */,
+				ECFFAD262052CA6C0073EB32 /* MontserratAlternates-ExtraBold.otf */,
+				ECFFAD272052CA6C0073EB32 /* MontserratAlternates-ExtraLight.otf */,
+				ECFFAD282052CA6C0073EB32 /* MontserratAlternates-Light.otf */,
+				ECFFAD292052CA6C0073EB32 /* MontserratAlternates-Medium.otf */,
+				ECFFAD2A2052CA6C0073EB32 /* MontserratAlternates-Regular.otf */,
+				ECFFAD2B2052CA6C0073EB32 /* MontserratAlternates-SemiBold.otf */,
+				ECFFAD2C2052CA6C0073EB32 /* MontserratAlternates-Thin.otf */,
+				ECFFAD2D2052CA6C0073EB32 /* SIL Open Font License.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECFFAC552052BE930073EB32 /* Abdul2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFFAC762052BE940073EB32 /* Build configuration list for PBXNativeTarget "Abdul2" */;
+			buildPhases = (
+				CC2F3980BD7F8C839189BD5C /* [CP] Check Pods Manifest.lock */,
+				ECFFAC522052BE930073EB32 /* Sources */,
+				ECFFAC532052BE930073EB32 /* Frameworks */,
+				ECFFAC542052BE930073EB32 /* Resources */,
+				3A7C500E3405CD4750EFC826 /* [CP] Embed Pods Frameworks */,
+				CBF67418325996DE75CA623B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abdul2;
+			productName = Abdul2;
+			productReference = ECFFAC562052BE930073EB32 /* Abdul2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECFFAC6C2052BE940073EB32 /* Abdul2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFFAC792052BE940073EB32 /* Build configuration list for PBXNativeTarget "Abdul2Tests" */;
+			buildPhases = (
+				0F81DDF374DCFA1A65BE7616 /* [CP] Check Pods Manifest.lock */,
+				ECFFAC692052BE940073EB32 /* Sources */,
+				ECFFAC6A2052BE940073EB32 /* Frameworks */,
+				ECFFAC6B2052BE940073EB32 /* Resources */,
+				32D7251F11628A7DD67A5793 /* [CP] Embed Pods Frameworks */,
+				A82C9F33C457C7A910FFA4D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFFAC6F2052BE940073EB32 /* PBXTargetDependency */,
+			);
+			name = Abdul2Tests;
+			productName = Abdul2Tests;
+			productReference = ECFFAC6D2052BE940073EB32 /* Abdul2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECFFAC4E2052BE930073EB32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = 123;
+				TargetAttributes = {
+					ECFFAC552052BE930073EB32 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					ECFFAC6C2052BE940073EB32 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECFFAC552052BE930073EB32;
+					};
+				};
+			};
+			buildConfigurationList = ECFFAC512052BE930073EB32 /* Build configuration list for PBXProject "Abdul2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECFFAC4D2052BE930073EB32;
+			productRefGroup = ECFFAC572052BE930073EB32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECFFAC552052BE930073EB32 /* Abdul2 */,
+				ECFFAC6C2052BE940073EB32 /* Abdul2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECFFAC542052BE930073EB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFFAD322052CA6C0073EB32 /* Montserrat-ExtraLight.otf in Resources */,
+				ECFFAD362052CA6C0073EB32 /* Montserrat-Medium.otf in Resources */,
+				ECFFAD3B2052CA6C0073EB32 /* Montserrat-Thin.otf in Resources */,
+				ECFFAD312052CA6C0073EB32 /* Montserrat-ExtraBold.otf in Resources */,
+				ECFFAD3E2052CA6C0073EB32 /* MontserratAlternates-Bold.otf in Resources */,
+				ECFFAD452052CA6C0073EB32 /* MontserratAlternates-Thin.otf in Resources */,
+				ECFFAD412052CA6C0073EB32 /* MontserratAlternates-Light.otf in Resources */,
+				ECFFAD462052CA6C0073EB32 /* SIL Open Font License.txt in Resources */,
+				ECFFAD392052CA6C0073EB32 /* Montserrat-Regular.ttf in Resources */,
+				ECFFAD2F2052CA6C0073EB32 /* Montserrat-Bold.otf in Resources */,
+				ECFFAD2E2052CA6C0073EB32 /* Montserrat-Black.otf in Resources */,
+				ECFFAD382052CA6C0073EB32 /* Montserrat-Regular.otf in Resources */,
+				ECFFAD332052CA6C0073EB32 /* Montserrat-ExtraLight.ttf in Resources */,
+				ECFFAD342052CA6C0073EB32 /* Montserrat-Light.otf in Resources */,
+				ECFFAD3C2052CA6C0073EB32 /* Montserrat-Thin.ttf in Resources */,
+				EC1B59DB20595BAB00D383F7 /* TableCell.xib in Resources */,
+				ECFFAD432052CA6C0073EB32 /* MontserratAlternates-Regular.otf in Resources */,
+				ECFFAD3D2052CA6C0073EB32 /* MontserratAlternates-Black.otf in Resources */,
+				ECFFAD3A2052CA6C0073EB32 /* Montserrat-SemiBold.otf in Resources */,
+				ECFFAD352052CA6C0073EB32 /* Montserrat-Light.ttf in Resources */,
+				ECFFAD302052CA6C0073EB32 /* Montserrat-Bold.ttf in Resources */,
+				ECFFAC912052BF700073EB32 /* Main.storyboard in Resources */,
+				ECFFAD372052CA6C0073EB32 /* Montserrat-Medium.ttf in Resources */,
+				ECFFAD042052BFAE0073EB32 /* Assets.xcassets in Resources */,
+				ECFFAD3F2052CA6C0073EB32 /* MontserratAlternates-ExtraBold.otf in Resources */,
+				ECFFAD442052CA6C0073EB32 /* MontserratAlternates-SemiBold.otf in Resources */,
+				ECFFAC672052BE940073EB32 /* LaunchScreen.storyboard in Resources */,
+				ECFFAD422052CA6C0073EB32 /* MontserratAlternates-Medium.otf in Resources */,
+				ECFFAD402052CA6C0073EB32 /* MontserratAlternates-ExtraLight.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFFAC6B2052BE940073EB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F81DDF374DCFA1A65BE7616 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Abdul2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32D7251F11628A7DD67A5793 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abdul2Tests/Pods-Abdul2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A7C500E3405CD4750EFC826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Abdul2/Pods-Abdul2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abdul2/Pods-Abdul2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82C9F33C457C7A910FFA4D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abdul2Tests/Pods-Abdul2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF67418325996DE75CA623B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abdul2/Pods-Abdul2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2F3980BD7F8C839189BD5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Abdul2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECFFAC522052BE930073EB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2334B120564ED900AA31D4 /* Register_ViewController.swift in Sources */,
+				EC1B59DA20595BAB00D383F7 /* TableCell.swift in Sources */,
+				ECFFAD112052C4F80073EB32 /* UITextfield.swift in Sources */,
+				EC1B59D52058FB8800D383F7 /* PopViewController.swift in Sources */,
+				ECFFAD082052C0B10073EB32 /* SignIn_ViewController.swift in Sources */,
+				EC299D552057D1C200FBE4D9 /* ViewDataViewController.swift in Sources */,
+				EC1B59D12058F84A00D383F7 /* Popover.swift in Sources */,
+				EC299D50205793C700FBE4D9 /* SaveDataViewController.swift in Sources */,
+				EC1B59D32058FAEF00D383F7 /* PopoverTableViewCell.swift in Sources */,
+				EC2334B52056AA3E00AA31D4 /* ChangePasswordViewController.swift in Sources */,
+				EC299D592057F0AE00FBE4D9 /* DataListingTableViewCell.swift in Sources */,
+				ECFFAC5A2052BE930073EB32 /* AppDelegate.swift in Sources */,
+				EC299D5B2057FE7400FBE4D9 /* ViewDataTableViewCell.swift in Sources */,
+				ECFFAC622052BE940073EB32 /* Abdul2.xcdatamodeld in Sources */,
+				EC2334B320569FB100AA31D4 /* ForgotViewController.swift in Sources */,
+				EC299D522057ADD600FBE4D9 /* SavaDataTableViewCell.swift in Sources */,
+				ECFFAD072052C0B10073EB32 /* BaseViewController.swift in Sources */,
+				ECFFAD132052C81E0073EB32 /* UIButton.swift in Sources */,
+				EC299D572057E39600FBE4D9 /* DataListingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFFAC692052BE940073EB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFFAC722052BE940073EB32 /* Abdul2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECFFAC6F2052BE940073EB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECFFAC552052BE930073EB32 /* Abdul2 */;
+			targetProxy = ECFFAC6E2052BE940073EB32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECFFAC652052BE940073EB32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFFAC662052BE940073EB32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECFFAC742052BE940073EB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECFFAC752052BE940073EB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECFFAC772052BE940073EB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CE1E2E6DA849E4B5CEB53C /* Pods-Abdul2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Abdul2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deftsoft.json-parsing.Abdul2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECFFAC782052BE940073EB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E6E1CA3F7C9B8E959CB299 /* Pods-Abdul2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Abdul2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deftsoft.json-parsing.Abdul2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ECFFAC7A2052BE940073EB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F8131760117932A13208CB /* Pods-Abdul2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Abdul2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deftsoft.json-parsing.Abdul2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abdul2.app/Abdul2";
+			};
+			name = Debug;
+		};
+		ECFFAC7B2052BE940073EB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E49E67053561F0C19623029C /* Pods-Abdul2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Abdul2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deftsoft.json-parsing.Abdul2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abdul2.app/Abdul2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECFFAC512052BE930073EB32 /* Build configuration list for PBXProject "Abdul2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFFAC742052BE940073EB32 /* Debug */,
+				ECFFAC752052BE940073EB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFFAC762052BE940073EB32 /* Build configuration list for PBXNativeTarget "Abdul2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFFAC772052BE940073EB32 /* Debug */,
+				ECFFAC782052BE940073EB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFFAC792052BE940073EB32 /* Build configuration list for PBXNativeTarget "Abdul2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFFAC7A2052BE940073EB32 /* Debug */,
+				ECFFAC7B2052BE940073EB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECFFAC602052BE940073EB32 /* Abdul2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECFFAC612052BE940073EB32 /* Abdul2.xcdatamodel */,
+			);
+			currentVersion = ECFFAC612052BE940073EB32 /* Abdul2.xcdatamodel */;
+			path = Abdul2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECFFAC4E2052BE930073EB32 /* Project object */;
+}
